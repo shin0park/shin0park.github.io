@@ -54,7 +54,14 @@ code, kbd, pre, samp {
 
 a {
     background-color: transparent;
-    -webkit-text-decoration-skip: objects
+    -webkit-text-decoration-skip: objects;
+    color: #999;
+    text-decoration: none;
+    transition: border-bottom 0.4s
+}
+
+a:hover {
+    border-bottom: 0.5px solid #999
 }
 
 abbr[title] {
@@ -4361,13 +4368,31 @@ summary {
     -moz-osx-font-smoothing: grayscale
 }
 
+
 body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.55em;
     margin: 0;
-    padding: 0;
-    font-size: 100%;
-    line-height: 1.5;
-    color: #555;
-    font-family: 'Roboto Light', sans-serif
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        font-size: calc(16px + 3 * ((100vw - 320px) / 960))
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        font-size: 19px
+    }
+}
+@media screen and (min-width: 1280px) {
+    body {
+        font-size: 19px
+    }
 }
 
 article, aside, figcaption, figure, footer, header, nav, section {
@@ -4460,6 +4485,155 @@ sub, sup {
 }
 #particles-js-post .particles-js-canvas-el {
     height: 100vh !important
+}
+header .social {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0
+}
+
+header .social li {
+    color: #fff;
+    float: left
+}
+
+header .social li i {
+    font-size: 26px;
+    transition: color .3s
+}
+
+header .social li i:first-child::before {
+    margin-left: 0
+}
+
+@media screen and (min-width: 320px) {
+    header .social li i {
+        font-size: calc(26px + 8 * ((100vw - 320px) / 960))
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    header .social li i {
+        font-size: 34px
+    }
+}
+
+header .social li i:hover {
+    color: #999
+}
+
+.container {
+    margin: 0 150px;
+    max-width: 720px
+}
+
+.container .highlighter-rouge {
+    right: 150px
+}
+
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: 1200px
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        margin: 0 15px
+    }
+
+    .container .highlighter-rouge {
+        right: 15px
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 540px) {
+    .container {
+        margin: 0 40px
+    }
+
+    .container .highlighter-rouge {
+        right: 40px
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .container {
+        margin: 0 80px
+    }
+
+    .container .highlighter-rouge {
+        right: 80px
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .container {
+        margin: 0 100px
+    }
+
+    .container .highlighter-rouge {
+        right: 100px
+    }
+}
+
+.post-title {
+    color: #222;
+    transition: color .3s ease;
+    margin: .1em 0
+}
+
+.post-title:hover {
+    color: #999;
+    border-bottom: 0
+}
+
+.post-description {
+    font-weight: normal;
+    color: #ddd;
+    margin-top: .5em;
+    margin-bottom: 1.3em
+}
+
+.post-date {
+    color: #999
+}
+
+.post-date .icon-calendar {
+    margin-right: 6px
+}
+
+.posts {
+    list-style-type: none;
+    padding: 0
+}
+
+.posts li {
+    margin-bottom: 30px;
+    padding-bottom: 20px
+}
+
+.posts li:not(:last-child) {
+    border-bottom: 1px solid #eee
+}
+
+.posts, .post-container {
+    margin-top: 40px
+}
+
+.post-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.post-meta a:hover {
+    border-bottom: none
+}
+
+.post-container img {
+    margin: 20px 0
 }
 
 .navbar {
