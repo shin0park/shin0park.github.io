@@ -4655,6 +4655,7 @@ header .social li i:hover {
     float: left;
     padding: 10px 25px;
     font-size: 15px;
+    color: #FFFFFF;
     transition: background-color .3s ease-in;
 }
 
