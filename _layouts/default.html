@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
 <html lang="en">
   {% include head.html %}
   <body>
+  <div class="container">
+      {%- include nav.html -%}
+  </div>
       {% include header.html %}
-      <section id="about">
-        {% include about.html %}
-      </section>
-        {{ content }}
+      <main>
+          <div class="container">
+              {{ content }}
+          </div>
+      </main>
+<!--      <ul class="default">-->
+<!--          {{ content }}-->
+<!--      </ul>-->
+<!--      <section id="about">-->
+<!--          {% include about.md %}-->
+<!--      </section>-->
+<!--      {{ content }}-->
       {% include footer.html %}
   </body>
 </html>
