@@ -13,5 +13,5 @@ description: "안드로이드 앱 개발"
 - android (java)
 - Database : firebase
 
-![app02](/assets/image/schoolApp/app_02.JPG)![app03](/assets/image/schoolApp/app_03.JPG)
-![app04](/assets/image/schoolApp/app_04.JPG)![app05](/assets/image/schoolApp/app_05.JPG){:width="30%" style="max-width: none;" }
+![app02](/assets/image/schoolApp/app_02.JPG){:width="30%" style="max-width: none;" }![app03](/assets/image/schoolApp/app_03.JPG){:width="30%" style="max-width: none;" }
+![app04](/assets/image/schoolApp/app_04.JPG){:width="30%" style="max-width: none;" }![app05](/assets/image/schoolApp/app_05.JPG){:width="30%" style="max-width: none;" }

@@ -12,6 +12,7 @@ description: "웹 개발 (백엔드)"
     - jsQR 오픈소스 사용
 2. 이메일/SMS 인증
     - SMS: 네이버 클라우드 SENS, 이메일: nodemailer
+    
 #### 로그인
 1. Google reCAPTCHA 적용한 로그인 서비스
 2. OTP를 사용한 2차 인증 서비스 (Google Authenticator App 사용)
