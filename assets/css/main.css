@@ -51,14 +51,10 @@ code, kbd, pre, samp {
     font-family: monospace, monospace;
     font-size: 1em
 }
-a, a:visited {
-    color: inherit;
-    text-decoration: underline;
-}
+
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-    color: #999999;
     text-decoration: none;
     transition: border-bottom 0.4s
 }
