@@ -59,7 +59,7 @@ a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
     color: #999999;
-    text-decoration: none;
+    text-decoration: underline;
     transition: border-bottom 0.4s
 }
 
