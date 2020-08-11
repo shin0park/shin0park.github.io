@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Visual Computing: Photo to drawing converter"
-description: "computer graphics"
+description: "Computer Graphics"
 ---
-### 사용 기술
+### 기술
 - XDOG 관련 기술 활용 (OPEN GL)
 - 고흐 스타일의 그림으로 변형 (The Starry Night)
 - 참고 논문 -> XDoG: An eXtended difference-of-Gaussians compendium including advanced image stylization

@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "시간표 추천 및 자동생성 웹 개발"
-description: "웹 개발"
+description: "Web Application"
 ---
 ### 개발 서비스
 - 개수 제한 없이 듣고 싶은 과목을 입력하면 가능한 모든 경우의 수의 시간표 자동 생성 기능
-- 필터 적용을 통해 원하는 시간표만 볼 수 있는 기능
+- 필터 적용을 통해 원하는 시간표만 볼 수 있는 기능 (요일 공강형, 공강최소형, 점심형, 저녁형)
 - 효율적인 시간표 순으로 나열 
 - 강의 평가 기능
 
@@ -24,9 +24,9 @@ description: "웹 개발"
 ![tt11](/assets/image/timeTable/tt_11.jpg){:width="100%" style="max-width: none;" }
 
 ### 기술
-- front-end : Vue
-- back-end : Node.js
-- 서버 구축 : [NAVER CLOUD PLATFORM](https://www.ncloud.com/)
+- Front-end : Vue.js
+- Back-end : Node.js
+- Server : [NAVER CLOUD PLATFORM](https://www.ncloud.com/)
 - Database : MySql
 
 ![tt06](/assets/image/timeTable/tt_06.jpg){:width="100%" style="max-width: none;" }

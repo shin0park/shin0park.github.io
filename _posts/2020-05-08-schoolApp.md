@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "대학 생활 관련 앱 개발"
-description: "안드로이드 앱 개발"
+title:  "학교 생활 관리 어플 개발"
+description: "Android Application"
 ---
 ### 개발 서비스
 - 학부, 학과별 홈페이지의 모든 공지사항 하나의 텝에 모아 놓은 공시사항 기능
@@ -10,8 +10,8 @@ description: "안드로이드 앱 개발"
 - 캘린더 기능
 
 ### 기술
-- android (java)
-- Database : firebase
+- Android (java)
+- Database : Firebase
 
 ![app02](/assets/image/schoolApp/app_02.JPG){:width="30%" style="max-width: none;" }![app03](/assets/image/schoolApp/app_03.JPG){:width="30%" style="max-width: none;" }
 ![app04](/assets/image/schoolApp/app_04.JPG){:width="30%" style="max-width: none;" }![app05](/assets/image/schoolApp/app_05.JPG){:width="30%" style="max-width: none;" }
