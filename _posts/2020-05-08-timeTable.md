@@ -27,7 +27,7 @@ description: "Web Application"
 - Front-end : Vue.js
 - Back-end : Node.js
 - Server : [NAVER CLOUD PLATFORM](https://www.ncloud.com/)
-- Database : MySql
+- Database : MySQL
 
 ![tt06](/assets/image/timeTable/tt_06.jpg){:width="100%" style="max-width: none;" }
 ![tt07](/assets/image/timeTable/tt_07.jpg){:width="100%" style="max-width: none;" }
