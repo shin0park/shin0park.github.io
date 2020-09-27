@@ -15,3 +15,4 @@ description: "Android Application"
 
 ![app02](/assets/image/schoolApp/app_02.JPG){:width="30%" style="max-width: none;" }![app03](/assets/image/schoolApp/app_03.JPG){:width="30%" style="max-width: none;" }
 ![app04](/assets/image/schoolApp/app_04.JPG){:width="30%" style="max-width: none;" }![app05](/assets/image/schoolApp/app_05.JPG){:width="30%" style="max-width: none;" }
+![app06](/assets/image/schoolApp/app_06.png){:width="100%" style="max-width: none;" }
